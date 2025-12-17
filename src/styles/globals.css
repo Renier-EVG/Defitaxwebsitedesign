@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* DeFiTax Brand Colors */
+    --color-primary: #0052FE;
+    --color-green: #30C060;
+    --color-purple: #7843A8;
+    --color-orange: #F5841F;
+    --color-light-blue: #00C7D9;
+    
+    /* Neutral Colors */
+    --color-gray-50: #F9FAFB;
+    --color-gray-100: #F3F4F6;
+    --color-gray-200: #E5E7EB;
+    --color-gray-300: #D1D5DB;
+    --color-gray-400: #9CA3AF;
+    --color-gray-500: #6B7280;
+    --color-gray-600: #4B5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1F2937;
+    --color-gray-900: #111827;
+  }
+
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  body {
+    @apply text-gray-900 bg-white;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+  }
+
+  h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+  }
+
+  button {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--color-primary);
+  }
+  
+  .text-green {
+    color: var(--color-green);
+  }
+  
+  .text-purple {
+    color: var(--color-purple);
+  }
+  
+  .text-orange {
+    color: var(--color-orange);
+  }
+  
+  .text-light-blue {
+    color: var(--color-light-blue);
+  }
+  
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  
+  .bg-green {
+    background-color: var(--color-green);
+  }
+  
+  .bg-purple {
+    background-color: var(--color-purple);
+  }
+  
+  .bg-orange {
+    background-color: var(--color-orange);
+  }
+  
+  .bg-light-blue {
+    background-color: var(--color-light-blue);
+  }
+  
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+  
+  .border-green {
+    border-color: var(--color-green);
+  }
+  
+  .border-purple {
+    border-color: var(--color-purple);
+  }
+  
+  .border-orange {
+    border-color: var(--color-orange);
+  }
+  
+  .border-light-blue {
+    border-color: var(--color-light-blue);
+  }
+  
+  .gradient-blue-lightblue {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-light-blue) 100%);
+  }
+  
+  .gradient-blue-green {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-green) 100%);
+  }
+
+  .animate-gradient {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-purple), var(--color-green), var(--color-light-blue), var(--color-primary));
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animate-blue-gradient {
+    background: linear-gradient(135deg, 
+      #000a1f 0%,     /* Very dark navy blue */
+      #001e52 20%,    /* Dark blue */
+      #0052FE 40%,    /* Primary blue */
+      #00C7D9 60%,    /* Light blue */
+      #002d66 80%,    /* Dark blue */
+      #000a1f 100%    /* Very dark navy blue */
+    );
+    background-size: 400% 400%;
+    animation: blueGradientMove 12s ease infinite;
+  }
+
+  @keyframes blueGradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 75%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 25%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
