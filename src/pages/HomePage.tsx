@@ -258,7 +258,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               className="flex justify-center lg:justify-end lg:-mr-8 order-1 lg:order-2 -mx-4 sm:-mx-6 lg:mx-0"
             >
               <video 
-                src="https://defitax.us/wp-content/uploads/2025/12/Flahslight1440.mp4"
+                src="https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/Flahslight1440.mp4"
                 autoPlay
                 loop
                 muted
@@ -339,7 +339,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             className="w-full h-full object-cover"
             style={{ display: 'block' }}
           >
-            <source src="https://defitax.us/wp-content/uploads/2025/12/Blocks-1080.30.mp4" type="video/mp4" />
+            <source src="https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/Blocks%201080.30.mp4" type="video/mp4" />
           </video>
         </div>
         
@@ -581,7 +581,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               >
                 <div className="rounded-2xl overflow-hidden shadow-2xl w-full sm:w-[85%] lg:w-[70%] mx-auto">
                   <video
-                    src="https://defitax.us/wp-content/uploads/2025/12/AnimiatedSearchPArty.mp4"
+                    src="https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/AnimiatedSearchPArty.mp4"
                     className="w-full h-full object-cover"
                     autoPlay
                     loop
@@ -642,7 +642,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   }}
                 >
                   <video
-                    src="https://defitax.us/wp-content/uploads/2025/12/Dashboard-Playful.mp4"
+                    src="https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/Dashboard---Playful.mp4"
                     autoPlay
                     loop
                     muted

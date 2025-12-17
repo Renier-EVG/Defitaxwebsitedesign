@@ -67,7 +67,7 @@ export function ServicesPage({ onNavigate }: ServicesPageProps) {
         'Direct blockchain data sourcing',
         'Automatic categorization',
       ],
-   video: 'https://defitax.us/wp-content/uploads/2025/12/1_1.mp4',
+   video: 'https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/1_1.mp4',
       bgColor: 'rgba(0, 82, 254, 0.05)',
     },
     {
@@ -79,7 +79,7 @@ export function ServicesPage({ onNavigate }: ServicesPageProps) {
         'Income reports (staking, mining)',
         'Audit-ready transaction history',
       ],
-    video: 'https://defitax.us/wp-content/uploads/2025/12/Report-Ready.mp4',
+    video: 'https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/Report%20Ready.mp4',
       bgColor: 'rgba(48, 192, 96, 0.05)',
     },
     {
@@ -91,7 +91,7 @@ export function ServicesPage({ onNavigate }: ServicesPageProps) {
         'NFT cost basis tracking',
         'Wrapped token handling',
       ],
-     video: 'https://defitax.us/wp-content/uploads/2025/12/Complexity.mp4',
+     video: 'https://github.com/Renier-EVG/Defitaxwebsitedesign/blob/main/src/assets/Complexity.mp4',
       bgColor: 'rgba(0, 199, 217, 0.05)',
     },
   ];
